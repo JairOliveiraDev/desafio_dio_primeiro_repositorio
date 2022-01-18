@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html>
+
+    <head>
+      <title>trabalhando com formularios</title>
+    </head>
+
+  <body>
+   <!--Isso é um comentário do código-->
+   <hr>
+   <form action="jair.correa.oliveira@gmail.com" method="get">
+   <p>Nº do cartão de credito: <input type=text name="num_cartao" size="16"</p><br>
+   <p> Senha: <input type=password name="senha" size="6"></p>
+   <p>Selecione a bandeira do cartão de credito:<br>
+   <input type=radio name="selecao_cartao" checked>VISA
+   <br>
+    <input type=radio name="selecao_cartao">MASTERCARD</p>
+	<hr>
+	<br>
+	<p>Selecione um horário de entrega:
+	<br>
+	<input type=checkbox name="horario1" size="1">8h às 12h
+	<br>
+	<input type=checkbox name="horario2" size="1">13h às 15h
+	<br>
+	<input type=checkbox name="horario3" size="1">16h às 18h</p>
+	<p>Endereço: <input type=text name="end" size="30"</p>
+	<p>Referência:<br><textarea name="ref" rows="2" cols="40"></textarea></p>
+	<br>
+	<input type=submit value="enviar"> <input type=reset value="limpar">
+	<input type=hidden name="cpf" value="verdadeiro">
+	<br>
+	<br>
+   </form>
+   <hr>
+   <h2>EXEMPLO DE LISTA DE OPÇOES</h2>
+    <form>
+	   <select name="cidades" size="4">
+	   <option>Londres
+	   <option>Paris
+	   <option>Roma
+	   <option>Madri
+	   </select>
+    </form>
+	<br>
+	<hr>
+	<h2>EXEMPLO DE MENU</h2>
+	<form>
+       <select name="cidades">
+	   <option>Londres
+	   <option>Paris
+	   <option>Roma
+	   <option>Madri
+	   </select> 	
+	</form>
+	
+	
+  </body>
+  
+</html>
